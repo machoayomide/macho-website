@@ -531,4 +531,5 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
 /* FORCE SECTION TITLE SIZE */
 .section-title {
   font-size: 3.5rem !important;
+  font-weight: 800 !important;
 }
