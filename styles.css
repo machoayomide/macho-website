@@ -589,3 +589,14 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
 .footer-socials a:hover svg {
   fill: #000000 !important;
 }
+.footer-brand {
+  text-align: center !important;
+}
+
+.footer-brand .footer-logo {
+  margin: 0 auto 1rem auto !important;
+}
+
+.footer-brand .footer-socials {
+  justify-content: center !important;
+}
