@@ -533,3 +533,59 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
   font-size: 3.5rem !important;
   font-weight: 800 !important;
 }
+/* FOOTER FIXES */
+.footer-col h4 {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  margin-bottom: 1.2rem !important;
+}
+
+.footer-col ul li,
+.footer-col p {
+  font-size: 0.95rem !important;
+  color: #aaaaaa !important;
+  margin-bottom: 0.7rem !important;
+}
+
+.footer-col a {
+  color: #aaaaaa !important;
+}
+
+.footer-col a:hover {
+  color: var(--orange) !important;
+}
+
+.footer-tagline {
+  font-size: 1rem !important;
+  color: #ffffff !important;
+}
+
+.footer-sub {
+  font-size: 0.9rem !important;
+  color: #888888 !important;
+}
+
+.footer-bottom span {
+  font-size: 0.85rem !important;
+  color: #666666 !important;
+}
+
+.footer-logo {
+  height: 90px !important;
+}
+
+.footer-socials a {
+  width: 44px !important;
+  height: 44px !important;
+}
+
+.footer-socials a svg {
+  width: 22px !important;
+  height: 22px !important;
+  fill: #aaaaaa !important;
+}
+
+.footer-socials a:hover svg {
+  fill: #000000 !important;
+}
