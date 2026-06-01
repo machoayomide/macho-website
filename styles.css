@@ -76,7 +76,7 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
 .page-hero-inner{max-width:1300px;margin:0 auto;position:relative;z-index:2}
 .page-hero h1{font-family:var(--font-head);
   font-size:clamp(2.5rem,5vw,4.5rem);font-weight:800;color:var(--white);
-  line-height:1.05;letter-spacing:-.02em;margin-bottom:.75rem}
+  line-height:1.05;letter-spacing:.05em;margin-bottom:.75rem}
 .page-hero p{font-size:1.1rem;color:var(--gray-2);max-width:550px}
 
 /* HERO (homepage) */
@@ -103,8 +103,8 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
 @keyframes pulseAnim{0%,100%{box-shadow:0 0 0 0 rgba(255,111,0,.6)}50%{box-shadow:0 0 0 6px rgba(255,111,0,0)}}
 .hero-content h1{font-family:var(--font-head);
   font-size:clamp(3rem,5vw,5rem);font-weight:800;line-height:1.05;
-  color:var(--white);margin-bottom:1.5rem;letter-spacing:-.02em}
-.hero-word-wrap{display:block;height:1.1em;overflow:hidden;position:relative}
+  color:var(--white);margin-bottom:1.5rem;letter-spacing:.05em}
+.hero-word-wrap{display:inline;position:relative}
 .hero-word{display:block;color:var(--orange);
   text-shadow:0 0 40px rgba(255,111,0,0.35);
   animation:wordSlide 8s ease-in-out infinite}
@@ -203,7 +203,7 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
   border-radius:100px;border:1px solid rgba(255,111,0,.2)}
 .section-title{font-family:var(--font-head);font-size:clamp(2rem,4vw,3.2rem);
   font-weight:800;color:var(--white);line-height:1.1;
-  letter-spacing:-.02em;margin-bottom:1rem}
+  letter-spacing:.05em;margin-bottom:1rem}
 .section-sub{font-size:1rem;color:var(--gray-2);line-height:1.7}
 .section-cta{text-align:center;margin-top:3rem}
 
