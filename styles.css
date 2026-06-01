@@ -572,7 +572,7 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
 }
 
 .footer-logo {
-  height: 160px !important;
+  height: 200px !important;
 }
 
 .footer-socials a {
@@ -588,4 +588,9 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
 
 .footer-socials a:hover svg {
   fill: #000000 !important;
+}
+.footer-logo {
+  height: 160px !important;
+  display: block !important;
+  margin: 0 auto !important;
 }
