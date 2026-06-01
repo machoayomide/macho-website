@@ -201,7 +201,7 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
   color:var(--orange);text-transform:uppercase;letter-spacing:.15em;
   margin-bottom:1rem;padding:.3rem .8rem;background:var(--orange-glow);
   border-radius:100px;border:1px solid rgba(255,111,0,.2)}
-.section-title{font-family:var(--font-head);font-size:clamp(2rem,4vw,3.2rem);
+.section-title{font-family:var(--font-head);font-size:clamp(1.8rem,2.8vw,3rem)
   font-weight:800;color:var(--white);line-height:1.1;
   letter-spacing:.05em;margin-bottom:1rem}
 .section-sub{font-size:1rem;color:var(--gray-2);line-height:1.7}
@@ -513,7 +513,7 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
   .nav-links a::after{display:none}
   .nav-links a.nav-cta{margin-top:1rem;border:none;text-align:center;padding:1rem}
   .hamburger{display:flex}
-  .hero-content h1{font-size:clamp(2.2rem,8vw,3.5rem)}
+  .hero-content h1{font-size:clamp(1.8rem,2.8vw,3rem)}
   .section{padding:4rem 5%}
   .services-grid{grid-template-columns:1fr}
   .process-grid{grid-template-columns:1fr}
