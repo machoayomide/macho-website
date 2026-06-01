@@ -590,7 +590,10 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
   fill: #000000 !important;
 }
 .footer-logo {
-  height: 160px !important;
+  height: 200px !important;
   display: block !important;
-  margin: 0 auto !important;
+  margin: 0 auto 1rem auto !important;
+  position: relative !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
 }
