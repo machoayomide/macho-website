@@ -40,7 +40,7 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
   border-bottom:1px solid var(--border-2);z-index:900;transition:background .3s}
 .nav.scrolled{background:rgba(10,10,10,0.98);box-shadow:0 2px 30px rgba(0,0,0,0.5)}
 .nav-logo{display:flex;align-items:center}
-.nav-logo img{height:62px;width:auto;object-fit:contain;
+.nav-logo img{height:110px;width:auto;object-fit:contain;
   filter:drop-shadow(0 0 12px rgba(255,111,0,0.5));
   transition:filter .3s,transform .3s}
 .nav-logo:hover img{filter:drop-shadow(0 0 20px var(--orange));transform:scale(1.04)}
@@ -105,7 +105,7 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
   font-size:clamp(3rem,5vw,5rem);font-weight:800;line-height:1.05;
   color:var(--white);margin-bottom:1.5rem;letter-spacing:.05em}
 .hero-word-wrap{display:inline;position:relative}
-.hero-word{display:block;color:var(--orange);
+.hero-word{display:block;color:var(--orange);white-space:nowrap;text-shadow:0 0 40px rgba(255,111,0,0.35);transition:opacity .3s ease,transform .3s ease}
   text-shadow:0 0 40px rgba(255,111,0,0.35);
   animation:wordSlide 8s ease-in-out infinite}
 @keyframes wordSlide{

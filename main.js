@@ -83,7 +83,7 @@ navLinks?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
 (function(){
   const el=document.getElementById('heroWord');
   if(!el) return;
-  const words=['High Converting','Profitable Online','Custom Shopify','Seven-Figure'];
+  const words=['Profitable','High-Converting','Winning','Revenue-Driving'];
   let i=0;
   el.style.transition='opacity .3s ease, transform .3s ease';
   setInterval(()=>{
