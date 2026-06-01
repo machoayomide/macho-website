@@ -528,3 +528,7 @@ ul{list-style:none} button{cursor:none} .orange{color:var(--orange)}
   button,a{cursor:pointer}
   .modal-scroll{padding:1.5rem}
 }
+/* FORCE SECTION TITLE SIZE */
+.section-title {
+  font-size: 3.5rem !important;
+}
