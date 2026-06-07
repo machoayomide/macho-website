@@ -7,9 +7,9 @@
    4. Go to Account → copy your PUBLIC_KEY
    5. Replace the 3 values below with yours
 */
-const EMAILJS_PUBLIC_KEY  = '814S4ZHcFGKJ1nZCb';   // e.g. 'abc123XYZ'
-const EMAILJS_SERVICE_ID  = 'service_5gorgks';   // e.g. 'service_xxxxxx'
-const EMAILJS_TEMPLATE_ID = 'template_ntww309';  // e.g. 'template_xxxxxx'
+const EMAILJS_PUBLIC_KEY  = '814S4ZHcFGKJ1nZCb';
+const EMAILJS_SERVICE_ID  = 'service_5gorgks';
+const EMAILJS_TEMPLATE_ID = 'template_w54ju8s';
 
 /* ── CURSOR ── */
 const cursor = document.getElementById('cursor');
