@@ -330,7 +330,7 @@ document.getElementById('quoteForm')?.addEventListener('submit', async function(
     this.reset();
     document.getElementById('fileList') && (document.getElementById('fileList').innerHTML='');
     setBtn(btn, false, '✅ Quote Sent!');
-    showToast('Quote request sent! I\'ll get back to you within 24 hours.','success');
+    showThankYou();
     setTimeout(()=>setBtn(btn, false), 4000);
 
   } catch(err){
@@ -372,3 +372,14 @@ if(fileDrop){
     setTimeout(()=>{pre.style.opacity='0';setTimeout(()=>pre.remove(),600);},800);
   });
 })();
+function showThankYou() {
+  const modal = document.getElementById('thankYouModal');
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeThankYou() {
+  const modal = document.getElementById('thankYouModal');
+  modal.style.display = 'none';
+  document.body.style.overflow = '';
+}
