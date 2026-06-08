@@ -245,8 +245,10 @@ document.getElementById('waForm')?.addEventListener('submit', async function(e){
     );
     // no-cors means we can't read the response, but if key is valid it goes through
     this.reset();
-    setBtn(btn, false, '✅ Message Sent!');
-    showToast('Message delivered to WhatsApp! I\'ll reply soon.', 'success');
+    this.reset();
+setBtn(btn, false, '✅ Message Sent!');
+showThankYou();
+setTimeout(()=>setBtn(btn, false), 3000);
     setTimeout(()=>setBtn(btn, false), 3000);
   } catch(err) {
     setBtn(btn, false);
